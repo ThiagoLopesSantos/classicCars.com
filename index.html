@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic Cars Auto</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top" id="cabecalho">
+        <div class="container p-0">
+            <h1 class="navbar-brand m-0 fs-4 fw-bold section-title">
+                Classic Cars Auto
+                <i class="bi bi-car-front-fill"></i>
+            </h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navigation">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link fs-6 active" href="#banner">
+                            <i class="bi bi-house-door me-0"></i>
+                            Início
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link fs-6" href="#sobre-nos">
+                            <i class="bi bi-person-vcard me-1"></i>
+                            Sobre nós
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link fs-6" href="#nosso-estoque">
+                            <i class="bi bi-car-front"></i>
+                            Nosso estoque
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link fs-6" href="#servicos">
+                            <i class="bi bi-tools me-1"></i>
+                            Serviços
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link fs-6" href="#contato">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="banner">
+            <div class="carousel carousel-fade slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/slide/carro.jpg" class="d-block" alt="">
+                        <div class="carousel-caption">
+                            <h2 class="fw-bold">Todo o charme de um clássico na sua gargem!</h2>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slide/servico.jpg" class="d-block" alt="">
+                        <div class="carousel-caption">
+                            <h2 class="fw-bold">Conheça nossos serviços!</h2>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button class="active" type="button" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                </div>    
+            </div>    
+        </section>
+        <section id="sobre-nos">
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/logo3.png" class="d-block w-100 " alt="Logomarca da concessionária">
+                        </div>
+                        <div class=" col-md-7">
+                            <h2 class="underline section-title mt-3 mt-md-10 fw-bold">Sobre a <span class="text-colored">concessionária</span></h2>
+                            <p class="fw-bold">
+                                Bem-vindo à <span class="text-colored">Classic Cars Auto</span> - onde a nostalgia encontra o estilo! Somos mais do que apenas uma concessionária; somos um portal para uma era dourada. Fundada por entusiastas apaixonados por motores e história, cada carro em nosso showroom não é apenas um veículo, mas um pedaço da história sobre rodas.
+                            </p>
+                            <h3 class="underline section-title fw-bold">Sobre <span class="text-colored">nossos carros</span></h3>
+                            <p class="fw-bold">
+                                Aqui, cada carro tem uma história para contar, desde corridas vencidas até corações conquistados. Navegue por nossa coleção e deixe-se encantar por modelos que definiram épocas, restaurados à perfeição e prontos para criar novas memórias nas estradas modernas. Seja você um colecionador, um aficionado por carros clássicos ou alguém em busca daquela sensação única de dirigir uma verdadeira obra de arte, nós temos algo especial para você.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="nosso-estoque">
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="section-title text-center  fw-bold mb-5">
+                            <i class="bi bi-box-fill text-colored"></i>
+                            Nosso <span class="text-colored">estoque</span>
+                            <div class="underline m-auto pt-2 w-50"></div>
+                        </h2>
+                    </div>
+                    <div class="row">
+                        <aside class="col-md-3 rounded menu-navigation2 ps-0 pe-0 m-0" >
+                            <h3 class="fw-bold text-center pt-2 pb-2 mb-0 section-title">Marcas</h3>
+                            <div class="underline2"></div>
+                            <nav class="nav nav-pills flex-column nav-estoque">
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#chevrolet"  class="fw-bold fs-6 text-center nav-link  active">
+                                    Chevrolet
+                                    <img src="images/icons/chevrolet.png" class="ms-1" alt="icone-chevrolet">
+                                </button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#volkswagen"  class="fw-bold fs-6 text-center nav-link ">
+                                    Volkswagen
+                                    <img src="images/icons/volkswagen.png" class="ms-1" alt="icone-volkswagen">
+                                </button>
+                            </nav>
+                        </aside>
+                        <div class="col-md-9">
+                            <div class="tab-content">
+                                <div class="tab-pane active lista-estoque" id="chevrolet">
+                                    <div class="row">
+                                        <div class="col-md-4 tab-item1 mb-2">
+                                            <section class="banner2">
+                                                <div class="carousel carousel-fade slide" data-bs-ride="carousel" id="carousel-tab">
+                                                    <div class="carousel-inner">
+                                                        <div class="carousel-item active" data-bs-interval="10000">
+                                                            <img src="images/chevrolet/vectra93/vectra93-frente.jpg" class="d-block w-100" alt="">
+                                                        </div>
+                                                        <div class="carousel-item" data-bs-interval="10000">
+                                                            <img src="images/chevrolet/vectra93/vectra93-trazeira.jpg" class="d-block w-100" alt="">
+                                                        </div>
+                                                        <div class="carousel-item" data-bs-interval="10000">
+                                                            <img src="images/chevrolet/vectra93/vectra93-interna.jpg" class="d-block w-100" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-tab" data-bs-slide="prev">
+                                                        <span class="carousel-control-prev-icon"></span>
+                                                    </button>
+                                                    <button class="carousel-control-next" type="button" data-bs-target="#carousel-tab" data-bs-slide="next">
+                                                        <span class="carousel-control-next-icon"></span>
+                                                    </button>
+                                                    <div class="carousel-indicators">
+                                                        <button class="active" type="button" data-bs-target="#carousel-tab" data-bs-slide-to="0"></button>
+                                                        <button type="button" data-bs-target="#carousel-tab" data-bs-slide-to="1"></button>
+                                                        <button type="button" data-bs-target="#carousel-tab" data-bs-slide-to="2"></button>
+                                                    </div>    
+                                                </div>    
+                                            </section>
+                                            <h5 class="mt-2 section-title fw-bold text-colored fw-bold">Vectra 93</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis dolores quidem ducimus et nostrum? Error magnam delectus natus non expedita. Laborum unde soluta quos facere libero reprehenderit eius quae nobis.
+                                            </p>
+                                            <button type="button" class="btn nav-pills btn w-100 btn-card mb-3 section-title">Gostei</button>
+                                        </div>
+                                        <div class="col-md-4 tab-item1 mb-2 ">
+                                            <section class="banner2">
+                                                <div class="carousel carousel-fade slide" data-bs-ride="carousel" id="carousel-tab2">
+                                                    <div class="carousel-inner">
+                                                        <div class="carousel-item active" data-bs-interval="10000">
+                                                            <img src="images/chevrolet/vectra2002/vectra2002-frente.jpg" class="d-block w-100" alt="">
+                                                        </div>
+                                                        <div class="carousel-item" data-bs-interval="10000">
+                                                            <img src="images/chevrolet/vectra2002/vectra2002-trazeira.jpg" class="d-block w-100" alt="">
+                                                        </div>
+                                                        <div class="carousel-item" data-bs-interval="10000">
+                                                            <img src="images/chevrolet/vectra2002/vectra2002-interna.jpg" class="d-block w-100" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-tab2" data-bs-slide="prev">
+                                                        <span class="carousel-control-prev-icon"></span>
+                                                    </button>
+                                                    <button class="carousel-control-next" type="button" data-bs-target="#carousel-tab2" data-bs-slide="next">
+                                                        <span class="carousel-control-next-icon"></span>
+                                                    </button>
+                                                    <div class="carousel-indicators">
+                                                        <button class="active" type="button" data-bs-target="#carousel-tab2" data-bs-slide-to="0"></button>
+                                                        <button type="button" data-bs-target="#carousel-tab2" data-bs-slide-to="1"></button>
+                                                        <button type="button" data-bs-target="#carousel-tab2" data-bs-slide-to="2"></button>
+                                                    </div>    
+                                                </div>    
+                                            </section>
+                                            <h5 class="mt-2 section-title fw-bold text-colored fw-bold">Vectra 2002</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis dolores quidem ducimus et nostrum? Error magnam delectus natus non expedita. Laborum unde soluta quos facere libero reprehenderit eius quae nobis.
+                                            </p>
+                                            <button type="button" class="btn btn-pills w-100 btn-card mb-3 section-title">Gostei</button>
+                                        </div>
+                                        <div class="col-md-4 tab-item1 mb-2">
+                                            <section class="banner2">
+                                                <div class="carousel carousel-fade slide" data-bs-ride="carousel" id="carousel-tab3">
+                                                    <div class="carousel-inner">
+                                                        <div class="carousel-item active" data-bs-interval="10000">
+                                                            <img src="images/chevrolet/monza-tubarao/monza-frente.jpg" class="d-block w-100" alt="">
+                                                        </div>
+                                                        <div class="carousel-item" data-bs-interval="10000">
+                                                            <img src="images/chevrolet/monza-tubarao/monza-trazeira.jpg" class="d-block w-100" alt="">
+                                                        </div>
+                                                        <div class="carousel-item" data-bs-interval="10000">
+                                                            <img src="images/chevrolet/monza-tubarao/monza-interna.jpg" class="d-block w-100" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-tab3" data-bs-slide="prev">
+                                                        <span class="carousel-control-prev-icon"></span>
+                                                    </button>
+                                                    <button class="carousel-control-next" type="button" data-bs-target="#carousel-tab3" data-bs-slide="next">
+                                                        <span class="carousel-control-next-icon"></span>
+                                                    </button>
+                                                    <div class="carousel-indicators">
+                                                        <button class="active" type="button" data-bs-target="#carousel-tab3" data-bs-slide-to="0"></button>
+                                                        <button type="button" data-bs-target="#carousel-tab3" data-bs-slide-to="1"></button>
+                                                        <button type="button" data-bs-target="#carousel-tab3" data-bs-slide-to="2"></button>
+                                                    </div>    
+                                                </div>    
+                                            </section>
+                                            <h5 class="mt-2 section-title fw-bold text-colored fw-bold">Monza Tubarão 93</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis dolores quidem ducimus et nostrum? Error magnam delectus natus non expedita. Laborum unde soluta quos facere libero reprehenderit eius quae nobis.
+                                            </p>
+                                            <button type="button" class="btn btn-pills w-100 btn-card mb-3 section-title">Gostei</button>
+                                        </div>
+                                        <div class="col-md-4 tab-item1 mb-2">
+                                            <section class="banner2">
+                                                <div class="carousel carousel-fade slide" data-bs-ride="carousel" id="carousel-tab3">
+                                                    <div class="carousel-inner">
+                                                        <div class="carousel-item active" data-bs-interval="10000">
+                                                            <img src="images/chevrolet/monza-tubarao/monza-frente.jpg" class="d-block w-100" alt="">
+                                                        </div>
+                                                        <div class="carousel-item" data-bs-interval="10000">
+                                                            <img src="images/chevrolet/monza-tubarao/monza-trazeira.jpg" class="d-block w-100" alt="">
+                                                        </div>
+                                                        <div class="carousel-item" data-bs-interval="10000">
+                                                            <img src="images/chevrolet/monza-tubarao/monza-interna.jpg" class="d-block w-100" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-tab3" data-bs-slide="prev">
+                                                        <span class="carousel-control-prev-icon"></span>
+                                                    </button>
+                                                    <button class="carousel-control-next" type="button" data-bs-target="#carousel-tab3" data-bs-slide="next">
+                                                        <span class="carousel-control-next-icon"></span>
+                                                    </button>
+                                                    <div class="carousel-indicators">
+                                                        <button class="active" type="button" data-bs-target="#carousel-tab3" data-bs-slide-to="0"></button>
+                                                        <button type="button" data-bs-target="#carousel-tab3" data-bs-slide-to="1"></button>
+                                                        <button type="button" data-bs-target="#carousel-tab3" data-bs-slide-to="2"></button>
+                                                    </div>    
+                                                </div>    
+                                            </section>
+                                            <h5 class="mt-2 section-title fw-bold text-colored fw-bold">Monza Tubarão 93</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis dolores quidem ducimus et nostrum? Error magnam delectus natus non expedita. Laborum unde soluta quos facere libero reprehenderit eius quae nobis.
+                                            </p>
+                                            <button type="button" class="btn btn-pills w-100 btn-card mb-3 section-title">Gostei</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane lista-estoque" id="volkswagen">
+                                    <div class="row">
+                                        <div class="col-md-4 tab-item1 mb-2">
+                                            <section class="banner2">
+                                                <div class="carousel carousel-fade slide" data-bs-ride="carousel" id="carousel-tab4">
+                                                    <div class="carousel-inner">
+                                                        <div class="carousel-item active" data-bs-interval="10000">
+                                                            <img src="images/volkswagen/fusca/fusca69-frente.jpg" class="d-block w-100" alt="">
+                                                        </div>
+                                                        <div class="carousel-item" data-bs-interval="10000">
+                                                            <img src="images/volkswagen/fusca/fusca69-trazeira.jpg" class="d-block w-100" alt="">
+                                                        </div>
+                                                        <div class="carousel-item" data-bs-interval="10000">
+                                                            <img src="images/volkswagen/fusca/fusca69-interna.jpg" class="d-block w-100" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-tab4" data-bs-slide="prev">
+                                                        <span class="carousel-control-prev-icon"></span>
+                                                    </button>
+                                                    <button class="carousel-control-next" type="button" data-bs-target="#carousel-tab4" data-bs-slide="next">
+                                                        <span class="carousel-control-next-icon"></span>
+                                                    </button>
+                                                    <div class="carousel-indicators">
+                                                        <button class="active" type="button" data-bs-target="#carousel-tab4" data-bs-slide-to="0"></button>
+                                                        <button type="button" data-bs-target="#carousel-tab4" data-bs-slide-to="1"></button>
+                                                        <button type="button" data-bs-target="#carousel-tab4" data-bs-slide-to="2"></button>
+                                                    </div>    
+                                                </div>    
+                                            </section>
+                                            <h5 class="mt-2 section-title fw-bold text-colored fw-bold">Fusca 69</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis dolores quidem ducimus et nostrum? Error magnam delectus natus non expedita. Laborum unde soluta quos facere libero reprehenderit eius quae nobis.
+                                            </p>
+                                            <button type="button" class="btn btn-pills w-100 btn-card mb-3 section-title">Gostei</button>
+                                        </div>
+                                        <div class="col-md-4 tab-item1 mb-2">
+                                            <section class="banner2">
+                                                <div class="carousel carousel-fade slide" data-bs-ride="carousel" id="carousel-tab5">
+                                                    <div class="carousel-inner">
+                                                        <div class="carousel-item active" data-bs-interval="10000">
+                                                            <img src="images/volkswagen/golgti94/golgti94-frente.jpg" class="d-block w-100" alt="">
+                                                        </div>
+                                                        <div class="carousel-item" data-bs-interval="10000">
+                                                            <img src="images/volkswagen/golgti94/golgti94-trazeira.jpg" class="d-block w-100" alt="">
+                                                        </div>
+                                                        <div class="carousel-item" data-bs-interval="10000">
+                                                            <img src="images/volkswagen/golgti94/golgti94-interna.jpg" class="d-block w-100" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-tab5" data-bs-slide="prev">
+                                                        <span class="carousel-control-prev-icon"></span>
+                                                    </button>
+                                                    <button class="carousel-control-next" type="button" data-bs-target="#carousel-tab5" data-bs-slide="next">
+                                                        <span class="carousel-control-next-icon"></span>
+                                                    </button>
+                                                    <div class="carousel-indicators">
+                                                        <button class="active" type="button" data-bs-target="#carousel-tab5" data-bs-slide-to="0"></button>
+                                                        <button type="button" data-bs-target="#carousel-tab5" data-bs-slide-to="1"></button>
+                                                        <button type="button" data-bs-target="#carousel-tab5" data-bs-slide-to="2"></button>
+                                                    </div>    
+                                                </div>    
+                                            </section>
+                                            <h5 class="mt-2 section-title fw-bold text-colored fw-bold">Gol GTI</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis dolores quidem ducimus et nostrum? Error magnam delectus natus non expedita. Laborum unde soluta quos facere libero reprehenderit eius quae nobis.
+                                            </p>
+                                            <button type="button" class="btn btn-pills w-100 btn-card mb-3 section-title">Gostei</button>
+                                        </div>
+                                        <div class="col-md-4 tab-item1 mb-2">
+                                            <section class="banner2">
+                                                <div class="carousel carousel-fade slide" data-bs-ride="carousel" id="carousel-tab6">
+                                                    <div class="carousel-inner">
+                                                        <div class="carousel-item active" data-bs-interval="10000">
+                                                            <img src="images/volkswagen/passat-iraquiano/passat-frente.jpg" class="d-block w-100" alt="">
+                                                        </div>
+                                                        <div class="carousel-item" data-bs-interval="10000">
+                                                            <img src="images/volkswagen/passat-iraquiano/passat-trazeira.jpg" class="d-block w-100" alt="">
+                                                        </div>
+                                                        <div class="carousel-item" data-bs-interval="10000">
+                                                            <img src="images/volkswagen/passat-iraquiano/passat-interna.jpg" class="d-block w-100" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-tab6" data-bs-slide="prev">
+                                                        <span class="carousel-control-prev-icon"></span>
+                                                    </button>
+                                                    <button class="carousel-control-next" type="button" data-bs-target="#carousel-tab6" data-bs-slide="next">
+                                                        <span class="carousel-control-next-icon"></span>
+                                                    </button>
+                                                    <div class="carousel-indicators">
+                                                        <button class="active" type="button" data-bs-target="#carousel-tab6" data-bs-slide-to="0"></button>
+                                                        <button type="button" data-bs-target="#carousel-tab6" data-bs-slide-to="1"></button>
+                                                        <button type="button" data-bs-target="#carousel-tab6" data-bs-slide-to="2"></button>
+                                                    </div>    
+                                                </div>    
+                                            </section>
+                                            <h5 class="mt-2 section-title fw-bold text-colored fw-bold">Passat Iraquiano</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis dolores quidem ducimus et nostrum? Error magnam delectus natus non expedita. Laborum unde soluta quos facere libero reprehenderit eius quae nobis.
+                                            </p>
+                                            <button type="button" class="btn btn-pills w-100 btn-card mb-3 section-title">Gostei</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="servicos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center fw-bold underline">
+                        Confiança com <span class="text-colored">serviços de qualidade</span>
+                        <i class="bi bi-hand-thumbs-up"></i>
+                    </h2>
+                </div>
+                <div class="row mt-4 lista-servico">
+                    <div class="col-md-4 mb-4">
+                        <img src="images/services/limpeza.jpg" class="d-block w-100 rounded mb-2" alt="">
+                        <h3 class="section-title text-colored text-center fs-5 fw-bold">
+                            Limpeza em geral
+                            <i class="bi bi-droplet-fill"></i>
+                        </h3>
+                        <p class="fw-bold">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero unde earum nobis et facilis iure sint voluptate illum quidem! Voluptatem quaerat deserunt dolores doloremque saepe fuga quia reiciendis ipsa magnam!
+                        </p>
+                        <ul>
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>Item 3</li>
+                        </ul>
+                        <button class="btn btn-card w-100">
+                            <i class="bi bi-calendar-fill me-2"></i>
+                            Agendar
+                        </button>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <img src="images/services/manutenção.jpg" class="d-block w-100 rounded mb-2" alt="">
+                        <h3 class="section-title text-colored text-center fs-5 fw-bold">
+                            Conserto e manutenção
+                            <i class="bi bi-wrench"></i>
+                        </h3>
+                        <p class="fw-bold">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero unde earum nobis et facilis iure sint voluptate illum quidem! Voluptatem quaerat deserunt dolores doloremque saepe fuga quia reiciendis ipsa magnam!
+                        </p>
+                        <ul>
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>Item 3</li>
+                        </ul>
+                        <button class="btn btn-card w-100">
+                            <i class="bi bi-calendar-fill me-2"></i>
+                            Agendar
+                        </button>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <img src="images/services/pintura.jpg" class="d-block w-100 rounded mb-2" alt="">
+                        <h3 class="section-title text-colored text-center fs-5 fw-bold">
+                            Pintura e funilaria
+                            <i class="bi bi-brush-fill"></i>
+                        </h3>
+                        <p class="fw-bold">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero unde earum nobis et facilis iure sint voluptate illum quidem! Voluptatem quaerat deserunt dolores doloremque saepe fuga quia reiciendis ipsa magnam!
+                        </p>
+                        <ul>
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>Item 3</li>
+                        </ul>
+                        <button class="btn btn-card w-100">
+                            <i class="bi bi-calendar-fill me-2"></i>
+                            Agendar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center fw-bold underline">Entre em <span class="text-colored">contato</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5 mt-5">
+                        <form id="contato-form">
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" name="nome" id="nome" class="form-control" placeholder="nome completo" >
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" name="email" id="email" class="form-control" placeholder="nome@dominio.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone</label>
+                                <input type="tel" name="telefone" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="veiculo-nome" class="form-label fw-bold text-colored">Veículo escolhido</label>
+                                <input type="text" name="veiculo-nome" id="veiculo-nome" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="servico-nome" class="form-label fw-bold text-colored">Agendar este serviço</label>
+                                <input type="text" name="servico-nome" id="servico-nome" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored" >Sua mensagem</label>
+                                <textarea id="mensagem" name="mensagem" class="form-control" required></textarea>
+                            </div>
+                            <button class="btn btn-card w-100">
+                                <i class="bi bi-cursor-fill me-2"></i>
+                                Enviar
+                            </button>
+                        </form>
+                    </div>
+                    <div class="col-md-5 mt-5">
+                        <div class="row">
+                            <h3 class="section-title underline text-center fs-4 text-colored fw-bold">
+                                Redes Sociais
+                            </h3>
+                            <ul class="social-links d-flex justify-content-center">
+                                <li class="fs-3">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-3 ms-4 me-4">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored" ></i>
+                                    </a>
+                                </li>
+                                <li class="fs-3">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row endereco">
+                            <h3 class="section-title text-center fw-bold underline fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p class="fw-bold fs-5">
+                                Rua Mecânicos do Bairro n° 320, Bairro Volante - Cep: 22240-555 / Rio de Janeiro - RJ
+                            </p>
+                            <div class="mapa">
+                                <img src="images/mapa.png" class="d-block w-100" alt="mapa">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="pb-3 pt-3">
+        <div class="container">
+            <p class="section-title mb-0 fw-bold text-center">&copy; 2024 Classic Cars Auto - Thiago Lopes. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="lib/jquery.mask.min.js"></script>
+    <script src="lib/jquery.validate.min.js"></script>
+    <script src="lib/messages_pt_BR.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
