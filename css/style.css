@@ -1,0 +1,141 @@
+
+:root {
+    --marrom-terra: #5C4033;
+    --bege-claro: #F5F5DC;
+    --branco: #FFFFFF;
+    --vermelho-vinho: #722F37;
+    --vermelho-vinho2: #800000;
+    --verde-escuro: #006400; 
+    --creme: #FFFDD0;
+}
+
+body {
+    font-family: "Montserrat Alternates", "sans serif";
+    background-color: var(--bege-claro);
+    color: var(--marrom-terra);
+}
+
+.navbar,
+footer {
+    background-color: var(--vermelho-vinho);
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: var(--branco);
+    color: var(--marrom-terra);
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-link.active:hover,
+footer p {
+    color: var(--creme);
+}
+.section-title {
+    font-family: "Playfair Display SC", Serif;
+}
+
+#carousel .carousel-item img {
+    width: 100%;
+    max-height: 700px; 
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background-color: var(--vermelho-vinho);
+    color: var(--creme);  
+}
+.carousel-caption h2 {
+    text-shadow: 1px 1px 1px #000;
+}
+
+#sobre-nos,
+#servicos {
+    background-color: var(--creme);
+}
+.underline {
+    border-bottom: 4px solid var(--verde-escuro);
+}
+.underline2 {
+    border-bottom: 1px solid var(--bege-claro);
+}
+.text-colored {
+    color: var(--vermelho-vinho2);
+}
+
+.menu-navigation2 {
+    background-color: var(--vermelho-vinho);
+    color: var(--creme);
+}
+
+.nav-estoque button,
+.nav-estoque button:hover {
+    color: var(--creme);
+    border: 1px solid var(--marrom-terra);
+}
+.nav-estoque button img {
+    width: 32px;
+}
+
+#nosso-estoque .nav .nav-link.active {
+    background-color: var(--creme);
+    color: var(--marrom-terra);
+}
+
+#nosso-estoque .nav-pills .nav-link {
+    border-radius: 0;
+}
+
+.btn-card {
+    background-color: var(--vermelho-vinho);
+    color: var(--creme);
+    font-weight: bold;
+}
+.btn-card:hover {
+    background-color: var(--verde-escuro);
+    color: var(--branco);
+}
+
+.banner2 img {
+    height: 200px;
+}
+#servicos .bar {
+    border: 1px solid var(--verde-escuro);
+    height: 1000px;
+    width: 100%;
+}
+
+.social-links li {
+    list-style: none;
+}
+.endereco {
+    border: 2px solid var(--verde-escuro);
+}
+.mapa img {
+    width: 100%;
+    max-height: 400px; 
+    object-fit: cover;
+}
+
+.alert {
+    color: var(--branco);
+    background-color: var(--marrom-terra);
+    border-radius: 0;
+}
+
+@media (max-width: 430px) {
+    #cabecalho {
+        padding: 10px;
+    }
+    
+    .carousel-caption {
+        font-size: 12px;
+        background-color: #722F3790;
+    }
+    .carousel-caption h2 {
+        font-size: 12px;
+    }
+
+    
+}
